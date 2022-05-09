@@ -1,0 +1,14 @@
+{
+  "name": "eitherify",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "semionshish@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@sweet-monads/either": "2.0.0",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.152"
+  }
+}
