@@ -18,7 +18,7 @@ const someFn = (
 };
 
 const someFnEither = eitherify(
-    decodeJwt,
+    someFn,
     new SomeFunctionError("Something went wrong"),
     new SomeFunctionError("result is null")
 );
