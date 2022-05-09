@@ -2,24 +2,29 @@
 # yarn lockfile v1
 
 
-"@sweet-monads/either@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@sweet-monads/either/-/either-2.0.0.tgz#ab44361cbea3afaa78634f0057b559b8e61f0d02"
-  integrity sha512-DaEtkSpkEgQcE7ayhC6QCP7JFW3wFCRPABiCuBFaWGN7zAAaV2+S0Ggi5LKvYJgk7GJrgLnNsGJQWGD6txS2wA==
+"@sweet-monads/either@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@sweet-monads/either/-/either-2.3.1.tgz#51e0440b3b331bab26e06ba2cbc6aa2b09d1e028"
+  integrity sha512-1xsY78pq7xF8Tb2/A1Kmmu4Ba5tUP9hYZjEDJY0UJcxnDoC3728Hg435h3VvfLTJ0HlpiZqegiQHqb1vRgvKqg==
   dependencies:
-    "@sweet-monads/interfaces" "^1.1.1"
+    "@sweet-monads/interfaces" "^2.3.0"
 
-"@sweet-monads/interfaces@^1.1.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@sweet-monads/interfaces/-/interfaces-1.3.1.tgz#43fba8f1dd9a25f51cf4fe2bf3f8d46a9018de70"
-  integrity sha512-yeq22ZGWEWnZEoOyEBNLOetv1irS7E+0BxOBPoC0yrJ+prFm6GtrSdrivXNkXSNBQ0a3bNR1PXtKP9ScbnaUlw==
+"@sweet-monads/interfaces@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@sweet-monads/interfaces/-/interfaces-2.3.0.tgz#3b8ade592630fe8e9666f227d84549203dafd264"
+  integrity sha512-ou9GHjkca1Zh4dSeIG8nmKE7T6Eao2x4Ouj7YTq0nFHA+WwYfvTnhCiUh9+cRz0BTLBRYOLsFlyax05VegSsYQ==
 
-"@types/lodash@^4.14.152":
+"@types/lodash@^4.14.182":
   version "4.14.182"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.182.tgz#05301a4d5e62963227eaafe0ce04dd77c54ea5c2"
   integrity sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==
 
-lodash@4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+yarn-upgrade-all@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/yarn-upgrade-all/-/yarn-upgrade-all-0.7.1.tgz#167a5a78127c7051c4ed15396bd5f68e3b5cc744"
+  integrity sha512-KoYfSs8jGH5fp4+12ezF3uMMIxx70X8l9efmUvsI0KQmmF4nVssEmXw4Q2aZVrRZHF30b3+cyzMIp8iU6sb9aw==
